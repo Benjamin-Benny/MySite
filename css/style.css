@@ -1,0 +1,170 @@
+body {
+  text-align: center;
+  margin: 0;
+  background-color: #f9f7f7;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #112d4e;
+}
+
+hr {
+  width: 5%;
+  border: dotted 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  color: #dbe2ef;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+  color: black;
+}
+
+.bottom-container {
+  background-color: #3f72af;
+  margin: 0;
+  padding-top: 20px;
+}
+
+.btn {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3f72ad), color-stop(1, #112e4e));
+  background: -moz-linear-gradient(center top, #3f72ad 5%, #112e4e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3f72ad', endColorstr='#112e4e');
+  background-color: #3f72ad;
+  -webkit-border-top-left-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-bottom-left-radius: 10px;
+  text-indent: 0;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  color: #f9f7f7;
+  font-family: arial;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  height: 40px;
+  line-height: 40px;
+  width: 140px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0px 1px 0px #283966;
+  margin: 60px auto 20px auto;
+}
+
+.btn:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #112e4e), color-stop(1, #3f72ad));
+  background: -moz-linear-gradient(center top, #112e4e 5%, #3f72ad 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#112e4e', endColorstr='#3f72ad');
+  background-color: #112e4e;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+
+.cloud1 {
+  position: absolute;
+  top: 70px;
+  right: 250px;
+  width: 132.5px;
+  height: 42px;
+}
+
+.cloud2 {
+  position: absolute;
+  top: 300px;
+  left: 230px;
+  width: 132.5px;
+  height: 42px;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.footer-link {
+  color: #112d4e;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+.footer-link:hover{
+  color: #f0f0f0;
+}
+.last-man {
+  margin-bottom: 0;
+  padding: 10px;
+  color: #f9f7f7;
+  font-size: 14px;
+  font-family: font-family: 'Nunito', sans-serif;;
+}
+
+.middle-container {
+  background-color: #f9f7f7;
+  margin: 100px auto;
+}
+
+.photo1 {
+  height: 125px;
+  border-radius: 100%;
+}
+
+.photo2 {
+  width: 9rem;
+  float: left;
+  padding-right: 20px;
+}
+
+.photo3 {
+  width: 10rem;
+  border-radius: 10%;
+  float: right;
+  padding-left: 20px;
+}
+
+.profile {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.top-container {
+  padding-top: 120px;
+  position: relative;
+  line-height: 2;
+  background-color: #dbe2ef;
+}
+
+#main-heading {
+  font-family: 'Marck Script', cursive;
+  margin: 0 auto;
+  font-size: 4rem;
+  color: #3f72af;
+}
+
+#main-para {
+  font-family: 'Tenali Ramakrishna', sans-serif;
+  font-size: 1.9rem;
+  margin: 0 auto;
+  color: #3f72af;
+  font-weight: normal;
+}
